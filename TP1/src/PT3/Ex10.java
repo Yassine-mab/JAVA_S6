@@ -25,10 +25,10 @@ public class Ex10 {
             }
         }
         System.out.println("La matrice avant la transpose :");
-        for(int i = 0 ;i < 3 ; i ++) 
+        for(int i = 0 ;i < N ; i ++) 
         {
     		System.out.print("[ ");
-        	for (int j = 0; j < 3; j ++) 
+        	for (int j = 0; j < N; j ++) 
         	{
         		System.out.print(tab[i][j] + " ");
         	}

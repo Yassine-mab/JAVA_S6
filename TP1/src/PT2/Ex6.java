@@ -26,9 +26,10 @@ public class Ex6 {
         {
         	if (tab[i] == nbr)
         		System.out.print("Le nbr " + nbr + " exite dans l'index : " + i);
+            else
+                System.out.println("Le nbr n'exite pas !");
         }
        
         sc.close();
     }
-
 }
